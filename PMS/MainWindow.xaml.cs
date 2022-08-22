@@ -18,6 +18,7 @@ namespace PMS
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// hello
     public partial class MainWindow : Window
     {
         public MainWindow()
