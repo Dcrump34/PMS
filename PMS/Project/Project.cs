@@ -11,7 +11,20 @@ namespace PMS.Project
             ProjectName = projectName;
         }
 
-  
+        public Budget ProjectBudget
+        {
+            get => projectBudget;
+            set => value = projectBudget;
+        }
+
+        public Timeline ProjectTimeline
+        {
+            get => projectTimeline;
+            set => value = projectTimeline;
+        }
+
+        private Budget projectBudget;
+        private Timeline projectTimeline;
         public readonly string ProjectName;
     }
 }
